@@ -10,8 +10,8 @@ body{
 	right: 0;
 }
 .container{
-	width: 85%;
-	max-width: 850px;
+	width: 90%;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 h1{
@@ -45,6 +45,7 @@ h1{
 .logo{
 	display: inline-block;
 	margin: 0 20px;
+	border-radius: 20px;
 }
 .logo img{
 	margin: 0 20px;
@@ -80,7 +81,19 @@ h1{
 .main{
 	padding-top: 10rem;
 }
-video{
+.window{
+	display: inline-block;
+	text-align: center;
+}
+.window img{
+	max-width: 480px;
+	margin: 20px;
+	border-radius: 30px;
+}
+.windows a{
+	background: white;
+}
+.fondo{
     position: fixed;
 
     min-width: 100%;
@@ -127,5 +140,12 @@ video{
 		background: #05115F;
 		border-radius: 100%;
 	}
+	.logo img {
+		display: none;
+	}
+	
+	.logo img.show{
+	margin: 0 20px;
+	max-width: 200px;
 }
 
