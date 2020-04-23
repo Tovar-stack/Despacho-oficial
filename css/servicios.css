@@ -1,0 +1,49 @@
+.row{
+	display: flex;
+	width: 100%;
+	margin-bottom: 30px;
+	vertical-align: middle;
+	border-radius: 40px;
+}
+.img{
+	margin: 50px;
+	width: 50%;
+}
+.img img{
+	max-width: 100%;
+	border-radius: 10px;
+}
+.imgserv{
+	margin: 10px;
+	width: 30%;
+}
+.imgserv img{
+	max-width: 100%;
+	border-radius: 10px;
+}
+.texto{
+	margin:10px;
+	vertical-align: middle;
+	text-align: center;
+	width: 50%;
+}
+.textoserv{
+	margin:10px;
+	vertical-align: middle;
+	text-align: center;
+	width: 30%;
+}
+.titulo{
+	font-family: "verdana";
+	font-size: 30px; 
+}
+.desc{
+	font-family: "arial";
+	font-size: 20px;
+}
+li{
+	text-align: justify;
+}
+ul{
+	align-self: center;
+}
