@@ -4,14 +4,20 @@ body{
 	line-height: 1.6em;
 	margin: 0;
 }
+.nombre{
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	font-family: "arial";
+}
 .navigation{
 	display: flex;
 	left: 0;
 	right: 0;
 }
 .container{
-	width: 90%;
-	max-width: 1080px;
+	width: 100%;
+	text-align: center;
 	margin: 0 auto;
 }
 .contenedor{
@@ -36,6 +42,7 @@ h1{
 	opacity: 95%;
 	z-index: 2;
 	font-size: 30px;
+	color: white;
 
 }
 .header a{
@@ -81,6 +88,7 @@ h1{
 	background: #6179CB;
 }
 .footer{
+	position: absolute;
 	background: #5F0505;
 	padding: 2rem 0;
 	text-align: center;
@@ -88,9 +96,13 @@ h1{
 	opacity: 90%;
 	color: white;
 	font-family: "arial";
+	width: 100%;
+
 }
 .main{
+	margin-top: 50px;
 	padding-top: 3rem;
+	width: 100%;
 }
 .window{
 	display: inline-block;
@@ -139,12 +151,24 @@ h1{
 }
 
 
-
-@media only screen and (max-width: 767px){
+@media all and (max-width: 768px){
+	.nombre{
+	font-family: "arial";
+	font-size: 20px;
+	margin-top: 55px;
+	text-align: center;
+	}
+	.container{
+		margin-top: 50px;
+	}
+	.footer{
+		width: 100%;
+	}
 	.navigation{
 		width: 100%;
 		margin-top: 1rem;
 		display: flex;
+		text-align: center;
 	}
 	.navigation ul{
 		display: none;
@@ -181,6 +205,10 @@ h1{
 	.logo{
 		max-width: 150px;
 	}
+	.header{
+		padding-bottom: 50px;
+	}
+
 
 }
 

@@ -1,16 +1,26 @@
 .row{
-	display: flex;
+	display: inline-block;
+	width: 45%;
+	margin-bottom: 30px;
+	vertical-align: middle;
+	border-radius: 40px;
+	text-align: center;
+}
+.row2{
+	display: inline-flex;
 	width: 100%;
 	margin-bottom: 30px;
 	vertical-align: middle;
 	border-radius: 40px;
+	text-align: center;
 }
 .img{
-	margin: 50px;
-	width: 50%;
+	align-self: center;
+	width: 100%;
+
 }
 .img img{
-	max-width: 100%;
+	max-width: 90%;
 	border-radius: 10px;
 }
 .imgserv{
@@ -18,14 +28,13 @@
 	width: 30%;
 }
 .imgserv img{
-	max-width: 100%;
+	max-width: 250px;
 	border-radius: 10px;
 }
 .texto{
-	margin:10px;
 	vertical-align: middle;
 	text-align: center;
-	width: 50%;
+	width: 100%;
 }
 .textoserv{
 	margin:10px;
@@ -46,4 +55,32 @@ li{
 }
 ul{
 	align-self: center;
+}
+
+.juridico li{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+}
+
+@media all and (max-width: 768px){
+	.row{
+		width: 80%;
+	}
+	.row2{
+		display: inline-block;
+		text-align: center;
+	}
+	.imgserv{
+		width: 100%;
+		align-self: center;
+		text-align: center;
+	}
+	.imgserv img{
+		max-width: 200px;
+	}
+	.textoserv{
+		width: 100%;
+		text-align: center;
+	}
 }
